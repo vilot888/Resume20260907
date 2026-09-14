@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>郭伟涛-Resume</title>
+
+    <!-- 内嵌式引入CSS -->
+    <style>
+        /* 标签选择器 */
+        h1 {
+            color: blue;
+            text-align: center;
+            background-color: beige;
+        }
+
+        /* 类选择器 */
+        .contact {
+            font-size: 20px;
+            font-weight: bold;
+            color: red;
+        }
+
+        /* id选择器 */
+        #love {
+            font-size: 15px;
+            text-align: center;
+            color: rgb(83, 76, 76);
+        }
+    </style>
+
+    <!-- 链入式引入CSS（外链式）：把样式放到 .css 外部样式表文件中 -->
+    <link rel="stylesheet" href="./css01.css">
+
+    <!-- 内嵌式引入JavaScript -->
+    <script>
+        console.log('我是郭伟涛');
+    </script>
+
+    <!-- 外链式引入JavaScript：把代码放到 .js 外部文件中 -->
+    <script src="./js01.js"></script>
+</head>
+<body>
+    <!-- 行内式引入CSS -->
+    <h1 style="color: blue; text-align: center; background-color: beige;">郭伟涛</h1>
+
+    <img src="./nw_resume.png" alt="照片加载失败" style="text-align: center; width: 260px; height: 260px;">
+
+    <p class="contact">邮箱：guoweitao@qq.com 电话：1xx-xxxx-xxxx</p>
+    <p class="contact">家乡：龙国</p>
+    <p style="font-weight: bold;">爱好：爬山 篮球</p>
+    <div style="font-size: larger;">技能：css，java，python</div>
+    <br>
+
+    <p>项目：开发古建筑智能体</p>
+    <p>竞赛：软件杯、蓝桥杯、职业技能竞赛</p>
+    <p>经历：2025-2028 广东科学技术职业学院</p>
+
+    <a href="javascript:alert('欢迎来到我的github主页')">欢迎来到我的github地址</a>
+    <input type="button" value="点击我" onclick="alert('你好，我是郭伟涛')">
+
+    <br><br>
+    <p id="love">靓仔到此一游</p>
+</body>
+</html>
